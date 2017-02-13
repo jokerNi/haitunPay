@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#5B5C63"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--这是  videopage title-->
+    <include layout="@layout/layout_titlebar"/>
+    <!--content -->
+    <GridView
+        android:id="@+id/video_list_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="@dimen/horizontalSpacing"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="@string/videoNumColumns"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dip"/>
+</LinearLayout>

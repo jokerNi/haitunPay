@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/bottomColor"
+              android:paddingBottom="@dimen/main_radiogroup_bottom_top"
+              android:paddingTop="@dimen/main_radiogroup_bottom_top">
+
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rb_main_first"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/free_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/freearea"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_second"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/gold_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/goldarea"/>
+
+     <!--   <RadioButton
+            android:id="@+id/rb_main_third"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/sexyliving_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/sexylivingarea"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_forth"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/privatevideo_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/privatearea"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_fifth"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/bbs_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/bbsarea"/>-->
+        <RadioButton
+            android:id="@+id/rb_main_third"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/privatevideo_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/privatearea"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_forth"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/wode_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/wode"/>
+
+        <RadioButton
+            android:id="@+id/rb_main_fifth"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/bbs_selector"
+            android:paddingLeft="@dimen/main_radiogroup_padding"
+            android:paddingRight="@dimen/main_radiogroup_padding"
+            android:text="@string/bbsarea"/>-->
+    </RadioGroup>
+
+</LinearLayout>

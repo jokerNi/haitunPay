@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_back"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gv_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gv_item_iv_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/p_top1"/>
+
+    <ImageView
+        android:id="@+id/gv_item_vip"
+        android:layout_width="@dimen/gv_item_vip_width"
+        android:layout_height="@dimen/gv_item_vip_width"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vip"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/gv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gv_item_image"
+        android:layout_marginTop="@dimen/gv_item_tv_margintop"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="艳舞女郎"
+        android:textColor="@color/white"
+        android:textSize="@dimen/gv_item_tv_textsize"
+        android:visibility="visible"/>
+
+
+</RelativeLayout>

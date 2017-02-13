@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="bottomColor">#504F4F</color>
+    <color name="main_back">#222222</color>
+    <color name="transparent">#00000000</color>
+    <color name="selectRadioButton">#FF0067</color>
+    <color name="normalRadioButton">#E4E4E4</color>
+    <color name="top_title_back">#88000000</color>
+    <color name="top_title_color">#F6F6F6</color>
+    <color name="mine_page_back">#313131</color>
+    <color name="mine_page_text_color">#BEBEBE</color>
+    <color name="mine_page_vip_level">#DB03BF</color>
+    <color name="mine_page_vip_open">#DC0000</color>
+    <color name="black">#000</color>
+    <color name="dialog_pay_back">#f0f0f0</color>
+    <color name="dialog_pay_confirm_button">#05C30B</color>
+    <color name="confitrmbutton2">#b3F4995F</color>
+    <color name="confitrmbutton">#F4995F</color>
+    <color name="red">#f00</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="videopage_title_back">#1C1B20</color>
+    <color name="videopage_content_back">#EEEEEE</color>
+    <color name="videopage_grid_back">#262630</color>
+</resources>

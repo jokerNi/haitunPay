@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg">
+
+        <ImageButton
+            android:id="@+id/titlebar_ib_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/main_radiogroup_padding"
+            android:background="@drawable/wode_selector"/>
+
+        <ImageButton
+            android:id="@+id/titlebar_ib_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/main_radiogroup_padding"
+            android:background="@drawable/open_selector"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tt_tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/titlebar_tv_title"
+            android:layout_marginRight="@dimen/main_radiogroup_padding"
+            android:text="已购买"
+            android:textColor="@color/white"
+            android:textSize="@dimen/video_text_title"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/titlebar_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="黄金区"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleSize"/>
+    </RelativeLayout>
+</LinearLayout>

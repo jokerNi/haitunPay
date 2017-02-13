@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/V2017haitun.iml" filepath="$PROJECT_DIR$/V2017haitun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haitun/haitun.iml" filepath="$PROJECT_DIR$/haitun/haitun.iml" />
+    </modules>
+  </component>
+</project>

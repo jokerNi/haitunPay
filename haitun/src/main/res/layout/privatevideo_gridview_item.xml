@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/videopage_grid_back"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/video_item_iv_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/head_default"/>
+
+        <TextView
+            android:id="@+id/video_item_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/video_item_iv_head"
+            android:text="我是你的小妖精"
+            android:textColor="@color/white"
+            android:textSize="@dimen/video_text_name"/>
+
+        <TextView
+            android:id="@+id/video_item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/video_item_tv_name"
+            android:layout_below="@+id/video_item_tv_name"
+            android:layout_marginTop="10dp"
+            android:lines="1"
+            android:text="先来一个前奏..."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/video_text_title"/>
+
+
+        <TextView
+            android:id="@+id/video_item_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="拍摄于51分钟前|UFO"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/bottom_tab_font_size"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/videopage_grid_back"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/video_item_iv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#c2c2c2"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/video_iv_playicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/playicon"/>
+    </RelativeLayout>
+
+</LinearLayout>

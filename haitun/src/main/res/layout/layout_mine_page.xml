@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main_back"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg">
+
+        <ImageButton
+            android:id="@+id/titlebar_ib_left"
+            android:layout_marginLeft="@dimen/main_radiogroup_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wode_selector"/>
+
+        <ImageButton
+            android:id="@+id/titlebar_ib_right"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/main_radiogroup_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/open_selector"/>
+
+
+        <TextView
+            android:id="@+id/titlebar_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="黄金区"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleSize"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mine_page_back"
+        android:paddingBottom="@dimen/mine_page_layout_padding_topbottom"
+        android:paddingTop="@dimen/mine_page_layout_padding_topbottom">
+
+        <ImageView
+            android:id="@+id/mine_iv_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/user_ic"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/mine_iv_user"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mine_zhanghao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zhanghao"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/mine_tv_imei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mine_zhanghao"
+                    android:text="      861054035135644"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/mine_mima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/qudaohaoma"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/mine_tv_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mine_mima"
+                    android:text="  100"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/mine_tv_channel"
+                    android:id="@+id/mine_qudao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="版本号:"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/mine_qudao"
+                    android:id="@+id/mine_tv_version_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1.2"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_toRightOf="@id/mine_tv_version_name"
+                    android:id="@+id/mine_tv_version_app_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" APPID:"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_toRightOf="@id/mine_tv_version_app_id"
+                    android:id="@+id/mine_tv_version_appid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/mine_page_back"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/mine_page_layout_padding_topbottom"
+        android:paddingTop="@dimen/mine_page_layout_padding_topbottom">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/touxian"
+                android:textColor="@color/mine_page_text_color"/>
+
+            <TextView
+                android:id="@+id/mine_tv_vip_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="普通会员"
+                android:textColor="@color/mine_page_vip_level"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tequan"
+                android:textColor="@color/mine_page_text_color"/>
+
+            <TextView
+                android:id="@+id/mine_tv_tequan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/tiyantequan"
+                android:textColor="@color/mine_page_vip_level"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caozuo"
+                android:textColor="@color/mine_page_text_color"/>
+
+            <TextView
+                android:id="@+id/mine_tv_open_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mine_page_open_vip_back"
+                android:clickable="true"
+                android:text="开通会员"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/mine_page_back"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mine_page_icon_padding_topbottom">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/hy_bg"
+            android:gravity="center_horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="3dp"
+            android:text="会员特权"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/mine_iv_pianku"
+                    android:layout_width="@dimen/mine_page_icon"
+                    android:layout_height="@dimen/mine_page_icon"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/pianku"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_iv_pianku"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/mine_page_icon_margintop"
+                    android:text="海量片库"
+                    android:textColor="@color/mine_page_text_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/mine_iv_tuku"
+                    android:layout_width="@dimen/mine_page_icon"
+                    android:layout_height="@dimen/mine_page_icon"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/tuku"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_iv_tuku"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/mine_page_icon_margintop"
+                    android:text="海量图库"
+                    android:textColor="@color/mine_page_text_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/mine_iv_test"
+                    android:layout_width="@dimen/mine_page_icon"
+                    android:layout_height="@dimen/mine_page_icon"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/pianku"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_iv_test"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/mine_page_icon_margintop"
+                    android:text="海量片库"
+                    android:textColor="@color/mine_page_text_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/mine_iv_gaoqing"
+                    android:layout_width="@dimen/mine_page_icon"
+                    android:layout_height="@dimen/mine_page_icon"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/gaoqing"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_iv_gaoqing"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/mine_page_icon_margintop"
+                    android:text="高清专享"
+                    android:textColor="@color/mine_page_text_color"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/mine_iv_meinvkefu"
+                    android:layout_width="@dimen/mine_page_icon"
+                    android:layout_height="@dimen/mine_page_icon"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_iv_meinvkefu"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/mine_page_icon_margintop"
+                    android:text="美女客服"
+                    android:textColor="@color/mine_page_text_color"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mine_tv_customer_service_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="客服QQ: 1243431564"
+        android:textColor="@color/mine_page_text_color"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/mine_page_back"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/mine_page_icon_padding_topbottom"
+        android:paddingLeft="@dimen/mine_page_icon_padding_topbottom"
+        android:paddingTop="@dimen/mine_page_icon_padding_topbottom">
+
+        <TextView
+            android:id="@+id/mine_tv_customer_service_worktime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作时间: 09:00--18:30"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_page_icon_padding_topbottom"
+            android:text="ps:加客服的时候请您备注您的账号+遇到的问题"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

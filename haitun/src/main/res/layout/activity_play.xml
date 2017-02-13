@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".VideoPlayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <cn.d.yurfe.bgc.ui.MyVideoView
+            android:id="@+id/mm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/vp_iv_mark1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/play_mark_top"
+        android:src="@drawable/watermark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/vp_iv_mark2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/play_mark_top"
+        android:src="@drawable/watermark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/vp_iv_mark3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/watermark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/vp_iv_mark4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/watermark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/gold_iv_mark1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/play_mark_top"
+        android:src="@drawable/zuan_mark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/gold_iv_mark2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/play_mark_top"
+        android:src="@drawable/zuan_mark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/gold_iv_mark3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/zuan_mark"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/gold_iv_mark4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/zuan_mark"
+        android:visibility="invisible"/>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#99000000"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/video_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/video_back_selector"/>
+
+        <TextView
+            android:id="@+id/moviename"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_circular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="正在加载..."/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
