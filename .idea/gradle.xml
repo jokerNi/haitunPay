@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/haitun" />
+            <option value="$PROJECT_DIR$/haitunNet" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

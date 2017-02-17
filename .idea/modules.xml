@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/V2017haitun.iml" filepath="$PROJECT_DIR$/V2017haitun.iml" />
-      <module fileurl="file://$PROJECT_DIR$/haitun/haitun.iml" filepath="$PROJECT_DIR$/haitun/haitun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haitunNet/haitunNet.iml" filepath="$PROJECT_DIR$/haitunNet/haitunNet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haitunPay.iml" filepath="$PROJECT_DIR$/haitunPay.iml" />
     </modules>
   </component>
 </project>
