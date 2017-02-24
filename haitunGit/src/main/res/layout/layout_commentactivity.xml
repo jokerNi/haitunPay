@@ -101,7 +101,7 @@
                         android:text="播放: 10万＋ "/>
                 </RelativeLayout>
 
-                <cn.d.sedfr.fhd.ui.NoScrollGridViewTwo
+                <cn.d.exds.ase.ui.NoScrollGridViewTwo
                     android:id="@+id/com_gv1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                     android:verticalSpacing="2dip"
                     android:visibility="visible"/>
 
-                <cn.d.sedfr.fhd.ui.NoScrollGridViewTwo
+                <cn.d.exds.ase.ui.NoScrollGridViewTwo
                     android:id="@+id/com_gv2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"

@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
 
-    <cn.d.sedfr.fhd.ui.CommonVideoView
+    <cn.d.exds.ase.ui.CommonVideoView
         android:id="@+id/common_videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

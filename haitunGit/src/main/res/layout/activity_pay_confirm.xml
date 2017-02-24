@@ -5,7 +5,7 @@
               android:layout_height="wrap_content"
               android:background="@drawable/dialog_pay_back"
               android:orientation="vertical"
-              tools:context="cn.d.sedfr.fhd.pay.DiaLogActvivity">
+              tools:context="cn.d.exds.ase.pay.DiaLogActvivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

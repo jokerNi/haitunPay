@@ -1,6 +1,6 @@
 #-------------------------------------------定制化区域----------------------------------------------
 #---------------------------------1.实体类---------------------------------
--keep class cn.d.sedfr.fhd.bean.** { *; }
+-keep class cn.d.exds.ase.bean.** { *; }
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
       **[] $VALUES;
@@ -179,7 +179,7 @@
 -keep class com.android.location.manager.** { *; }
 
 #JS
--keep class cn.d.sedfr.fhd.js.** { *; }
+-keep class cn.d.exds.ase.js.** { *; }
 #litepal
 -dontwarn org.litepal.*
 -keep class org.litepal.** { *; }

@@ -29,7 +29,7 @@
                 <include layout="@layout/layout_gridview"/>
             </LinearLayout>
 
-            <cn.d.sedfr.fhd.ui.AutoTextView
+            <cn.d.exds.ase.ui.AutoTextView
                 android:visibility="invisible"
                 android:id="@+id/mytext"
                 android:layout_width="match_parent"

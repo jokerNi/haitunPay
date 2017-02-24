@@ -3,7 +3,7 @@
     <dbname value="natobww"></dbname>
     <version value="1"></version>
     <list>
-        <mapping class="cn.d.sedfr.fhd.bean.Videos"></mapping>
-        <mapping class="cn.d.sedfr.fhd.bean.Users"></mapping>
+        <mapping class="cn.d.exds.ase.bean.Videos"></mapping>
+        <mapping class="cn.d.exds.ase.bean.Users"></mapping>
     </list>
 </litepal>

@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="fill"
-    tools:context="cn.d.sedfr.fhd.act.SplashActivity">
+    tools:context="cn.d.exds.ase.act.SplashActivity">
 
-    <cn.d.sedfr.fhd.ui.MyVideoView
+    <cn.d.exds.ase.ui.MyVideoView
         android:id="@+id/spl_videoview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
