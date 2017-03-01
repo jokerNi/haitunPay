@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="vertical"
-              tools:context="cn.d.exds.ase.pay.DiaLogActvivity">
+<LinearLayout
+    android:visibility="gone"
+    android:id="@+id/doalog_avtivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="cn.d.fesa.wuf.pay.DiaLogActvivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,8 +17,8 @@
             android:id="@+id/iv_dia_pay_top"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/p_top3"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_default"/>
 
         <ImageButton
             android:id="@+id/ib_vip_exit"
@@ -148,6 +151,7 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+
         <Button
             android:id="@+id/dialog_btn_pay"
             android:layout_width="wrap_content"

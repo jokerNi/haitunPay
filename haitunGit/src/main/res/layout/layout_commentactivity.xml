@@ -59,7 +59,7 @@
                             android:scaleType="centerCrop"
                             android:id="@+id/comment_iv_playvideo"
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
+                            android:layout_height="200dp"
                             android:layout_margin="10dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/ic_default"/>
@@ -101,7 +101,7 @@
                         android:text="播放: 10万＋ "/>
                 </RelativeLayout>
 
-                <cn.d.exds.ase.ui.NoScrollGridViewTwo
+                <cn.d.fesa.wuf.ui.NoScrollGridViewTwo
                     android:id="@+id/com_gv1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -111,13 +111,13 @@
                     android:focusable="false"
                     android:horizontalSpacing="5dp"
                     android:listSelector="@android:color/transparent"
-                    android:numColumns="2"
+                    android:numColumns="3"
                     android:scrollbars="none"
                     android:stretchMode="columnWidth"
                     android:verticalSpacing="2dip"
                     android:visibility="visible"/>
 
-                <cn.d.exds.ase.ui.NoScrollGridViewTwo
+                <cn.d.fesa.wuf.ui.NoScrollGridViewTwo
                     android:id="@+id/com_gv2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"

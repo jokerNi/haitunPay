@@ -14,7 +14,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <cn.d.exds.ase.ui.MyVideoView
+        <cn.d.fesa.wuf.ui.MyVideoView
             android:id="@+id/mm"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

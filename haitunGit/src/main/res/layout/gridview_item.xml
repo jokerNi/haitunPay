@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/gv_item_iv_height"
         android:scaleType="fitXY"
-        android:src="@drawable/p_top1"/>
+        android:src="@drawable/ic_default"/>
 
     <ImageView
         android:id="@+id/gv_item_vip"

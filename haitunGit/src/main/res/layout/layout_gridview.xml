@@ -6,7 +6,7 @@
     android:background="@color/main_back"
     android:orientation="vertical">
 
-    <cn.d.exds.ase.ui.NoScrollGridView
+    <cn.d.fesa.wuf.ui.NoScrollGridView
         android:id="@+id/main_gv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

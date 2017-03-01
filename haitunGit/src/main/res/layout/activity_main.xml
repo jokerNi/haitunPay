@@ -8,7 +8,7 @@
     tools:context=".act.MainActivity">
 
 
-    <cn.d.exds.ase.ui.CustomViewPager
+    <cn.d.fesa.wuf.ui.CustomViewPager
         android:id="@+id/main_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

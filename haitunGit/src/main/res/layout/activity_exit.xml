@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.d.exds.ase.exit.ExitActivity">
+    tools:context="cn.d.fesa.wuf.exit.ExitActivity">
 
     <RelativeLayout
         android:id="@+id/exit_relative"

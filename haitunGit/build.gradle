@@ -5,15 +5,15 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "cn.d.exds.ase"
+        applicationId "cn.d.fesa.wuf"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 2147483647
-        versionName "5.9"
+        versionName "6.2"
     }
     signingConfigs {
         release {
-            storeFile file('D:\\cn.d.exds.ase.jks')
+            storeFile file('D:\\cn.d.fesa.wuf.jks')
             keyAlias '123123'
             storePassword '123123'
             keyPassword '123123'
@@ -22,6 +22,7 @@ android {
     }
     buildTypes {
         debug {
+            zipAlignEnabled false
             shrinkResources true
             minifyEnabled true
             signingConfig signingConfigs.release
@@ -31,6 +32,7 @@ android {
             //无效资源不要打包进release版本
             shrinkResources true
             minifyEnabled true
+            zipAlignEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -44,7 +46,7 @@ android {
 dependencies {
     compile 'jp.wasabeef:picasso-transformations:2.1.0'
     compile 'de.greenrobot:eventbus:2.4.0'
-    compile(name: 'haitunsdk-1.0.2.1215', ext: 'aar');
+    compile(name: 'haitunsdk-2.0.0', ext: 'aar');
     compile 'com.zhy:okhttputils:2.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile fileTree(dir: 'libs', include: ['*.jar'])
